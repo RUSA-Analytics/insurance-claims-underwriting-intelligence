@@ -2,9 +2,9 @@
 
 **Insurance analytics portfolio · Tableau · Synthetic demonstration data**
 
-A four-dashboard Tableau proof of concept by **RUSA Analytics** showing insurance portfolio monitoring, underwriting risk, claims intelligence, and claims operations. The screenshots below were provided by the dashboard developer.
+A four-dashboard Tableau proof of concept by **RUSA Analytics** showing insurance portfolio monitoring, underwriting risk, claims intelligence, and claims operations.
 
-> **Data disclosure:** All insurance figures shown are synthetic demonstration values, not outcomes from a real insurer or a verified client engagement. KPI calculations, definitions, and units should be independently reconciled before they are cited as validated results.
+> **Data disclosure:** All insurance figures shown are synthetic demonstration values, not outcomes from a real insurer or a verified client engagement. Figures are illustrative and have not been validated as business results.
 
 ## Dashboard gallery
 
@@ -49,6 +49,8 @@ A risk flag or SIU referral is **not evidence of fraud**. This dashboard is illu
 
 ```text
 README.md
+docs/
+  CASE_STUDY.md
 screenshots/
   01_Insurance_Portfolio_Overview.png
   02_Underwriting_Operational_Risk_Analytics.png
@@ -56,9 +58,9 @@ screenshots/
   04_Risk_Claims_Operations.png
 ```
 
-## Portfolio limitations and publication policy
+## Scope of this repository
 
-The screenshots are authentic captures supplied by the Tableau developer. They verify the four dashboard visuals were delivered, **not** that the underlying calculations or interactive features passed QA. The source CSVs and packaged Tableau workbook have not been verified as final handover deliverables. No Tableau workbook, datasets, private business information, or demo video is shared in this public repository.
+This repository contains the four dashboard screenshots and documentation. The packaged Tableau workbook and source data are not published here. The dashboards are a proof of concept for portfolio purposes, not a production deployment.
 
 ## About RUSA Analytics
 

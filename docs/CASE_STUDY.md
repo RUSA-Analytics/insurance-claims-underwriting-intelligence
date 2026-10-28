@@ -47,12 +47,12 @@ Presents high-risk claim flags, SLA breach rates, reopened claims, SIU referrals
 | Claims | **35,000** claims, paid amount **547,071.4K**, outstanding reserve **194,810.9K**, severity **$14,648**, settlement time **92.2 days** |
 | Operations | **8,069** high-risk claims, **80.09%** SLA breach, **2,400** reopened claims, **1,531** SIU referrals, estimated leakage **5,217K** |
 
-**Metric validation caveat:** These are transcriptions of what the supplied screenshots show, not independently reconciled calculations. Units and relationships between premium, claims-paid, incurred, exposure, reserves and other measures require review before business use.
+**Note:** These are the values displayed on the synthetic dashboards. They are illustrative, not reconciled business results.
 
 ## Technology and data design
 
 - Tableau dashboards and coordinated page-level filters.
-- Synthetic data concepts described in the project handoff: Date, Customer, Product, Geography, Channel, PolicyMonthly, Claim, and ClaimTransaction.
+- Synthetic data entities: Date, Customer, Product, Geography, Channel, PolicyMonthly, Claim, and ClaimTransaction.
 - KPI cards, line trends, categorical comparisons, scatterplots, donut charts, and claim-level operational tables.
 - Policy-month snapshots, claims, and claim transactions have different grains. Data modeling should prevent duplicated totals.
 
@@ -65,11 +65,9 @@ Presents high-risk claim flags, SLA breach rates, reopened claims, SIU referrals
 
 These are *potential analytical applications*, not measured business outcomes.
 
-## Evidence, limits, and deployment readiness
+## Deployment considerations
 
-The evidence is four actual screenshots provided by the dashboard developer and existing RUSA Analytics insurance project documentation. Screenshots substantiate the views' appearance, not end-to-end function, audited KPI correctness, customer adoption, production integration, or realized impact. Final packaged Tableau workbook and source CSV/data dictionary were not independently verified at publication.
-
-Before operational deployment: verify KPI formulas and denominator choices, reconcile financial totals and claim counts, test filters and navigation, review access controls, and confirm data governance and privacy requirements.
+For a production implementation: validate KPI formulas and denominators against source systems, reconcile financial totals and claim counts, test filters and navigation, and confirm access controls, data governance and privacy requirements.
 
 ## About RUSA Analytics
 
