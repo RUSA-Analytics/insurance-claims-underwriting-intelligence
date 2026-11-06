@@ -1,72 +1,54 @@
 # Insurance Claims & Underwriting Intelligence | RUSA Analytics
 
-**Insurance analytics portfolio · Tableau · Synthetic demonstration data**
+**RUSA Analytics engagement · Tableau · Insurance analytics**
 
-A four-dashboard Tableau proof of concept by **RUSA Analytics** showing insurance portfolio monitoring, underwriting risk, claims intelligence, and claims operations.
+RUSA Analytics delivered a four-dashboard Tableau analytics engagement spanning insurance portfolio monitoring, underwriting and operational risk, claims intelligence, and risk and claims operations.
 
-> **Data disclosure:** All insurance figures shown are synthetic demonstration values, not outcomes from a real insurer or a verified client engagement. Figures are illustrative and have not been validated as business results.
+> **Disclosure:** RUSA Analytics has confirmed the engagement. The publicly shown dashboard figures use synthetic or illustrative values; they are not audited client KPIs or measured business outcomes. Client identities and internal delivery assets are not disclosed.
 
 ## Dashboard gallery
 
 ### 1. Insurance Portfolio Overview
 ![Insurance Portfolio Overview](screenshots/01_Insurance_Portfolio_Overview.png)
 
-Tracks gross written premium, earned premium, incurred claims, loss ratio, active policies, renewal rate, product performance, and regional performance.
+Tracks written and earned premium, incurred claims, loss ratio, policies, renewals, product mix and geographic performance.
 
 ### 2. Underwriting & Operational Risk Analytics
 ![Underwriting & Operational Risk Analytics](screenshots/02_Underwriting_Operational_Risk_Analytics.png)
 
-Reviews quote-to-bind conversion, average premium, cancellation rate, exposure, renewal rate, and underwriting risk segments.
+Reviews quote-to-bind conversion, premium, cancellation, exposure, renewal and risk segments.
 
 ### 3. Claims Intelligence
 ![Claims Intelligence](screenshots/03_Claims_Intelligence.png)
 
-Examines claim counts, paid amounts, outstanding reserves, claim severity, settlement times, claim aging, claim status, and attention queues.
+Examines claim counts, paid amounts, reserves, severity, settlement times, claim aging and case queues.
 
 ### 4. Risk & Claims Operations
 ![Risk & Claims Operations](screenshots/04_Risk_Claims_Operations.png)
 
-Explores high-risk flags, SLA breaches, reopened claims, special investigation unit (SIU) referrals, estimated leakage, investigation priorities, and risk indicators.
+Surfaces operational risk indicators, SLA exceptions, reopened claims and special investigation unit (SIU) referrals. **Risk flags and SIU referrals are not proof of fraud.**
 
-## Business questions demonstrated
+## Business questions addressed
 
-- How do written premiums and incurred claims compare across the portfolio?
-- How do retention, exposure, and cancellations differ by risk tier or product?
-- Which claim categories, statuses, and aging bands merit operational review?
-- How could claims teams prioritize review queues based on defined indicators?
+- How do written premiums, earned premiums and incurred claims differ across portfolio segments?
+- How do exposure, cancellations, renewals and quote-to-bind rates vary by risk tier?
+- Which claim categories, statuses and aging bands deserve review?
+- How can claims teams prioritize human-led operational exception management?
 
-A risk flag or SIU referral is **not evidence of fraud**. This dashboard is illustrative decision support, not an automated claim adjudication or fraud determination system.
+## Technology and data model
 
-## Technologies and design
+- **Visualization:** Tableau, four dashboard views
+- **Filters:** Date, policy, claim, product, risk tier, geography and channel
+- **Key modeling consideration:** Monthly policy snapshots and claim/payment transactions have different levels of detail. Validate aggregation and reconciliation to prevent double-counting.
 
-- **Platform:** Tableau (four connected dashboards)
-- **Filters:** Date, claim, country, policy type, product, risk tier, and channel
-- **Visuals:** KPI cards, trends, segment bars, tables, scatterplots, and donut charts
-- **Data:** Synthetic insurance policy, customer, product, geography, channel, claim, and claim-transaction concepts
-- **Modeling consideration:** Policy snapshots and claim/transaction facts have different grains; aggregations must be validated to prevent double-counting
+## Delivery inventory and confidentiality
 
-## Repository files
+The related **internal OneDrive** folder `RUSA_INSURANCE_TABLEAU_PROJECT` contains a Tableau workbook (`RUSA_Insurance_Tableau_Analytics.twb`), original and cleaned data, developer handoff and business documentation, four dashboard screenshots, design assets and four videos. These materials are held for internal use and are **not publicly downloadable**.
 
-```text
-README.md
-docs/
-  CASE_STUDY.md
-screenshots/
-  01_Insurance_Portfolio_Overview.png
-  02_Underwriting_Operational_Risk_Analytics.png
-  03_Claims_Intelligence.png
-  04_Risk_Claims_Operations.png
-```
+This inventory confirms file presence, not successful independent execution or full QA of the workbook. Only approved dashboard screenshots and public documentation are included here.
 
-## Scope of this repository
+## Discuss this engagement
 
-This repository contains the four dashboard screenshots and documentation. The packaged Tableau workbook and source data are not published here. The dashboards are a proof of concept for portfolio purposes, not a production deployment.
-
-## About RUSA Analytics
-
-RUSA Analytics builds business intelligence, analytics, and decision-support solutions.
-
-- Website: https://www.rusaanalytics.com
-- GitHub: https://github.com/RUSA-Analytics
+Visit [RUSA Analytics](https://www.rusaanalytics.com/) to **book a discovery call** about adapting the analytics approach to your insurance workflows.
 
 **RUSA Analytics | AI-Powered Insights. Business-Driven Outcomes.**
