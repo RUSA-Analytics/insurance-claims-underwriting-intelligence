@@ -1,16 +1,16 @@
 # Case Study: Insurance Claims & Underwriting Intelligence
 
-**RUSA Analytics | Tableau | Insurance | Synthetic demonstration / proof of concept**
+**RUSA Analytics | Tableau | Insurance | Verified engagement**
 
-> **Disclosure:** This is a RUSA Analytics portfolio demonstration using synthetic insurance data, not a verified client deployment. Figures in the screenshots are illustrative. No real insurer's operational performance, actual savings, fraud findings, or investment returns are claimed.
+> **Disclosure:** RUSA Analytics confirms this engagement. Public screenshot figures are synthetic/illustrative and do not represent audited client performance, actual savings, fraud findings or financial returns. Confidential client identity and source assets remain internal.
 
 ## Executive summary
 
-RUSA Analytics developed a four-dashboard Tableau proof of concept illustrating how insurance teams could analyze portfolio premiums, underwriting exposure, claims activity, and operational review priorities in one navigable experience. The dashboards support filtering by date, claim, country, policy type, product, risk tier, and channel.
+RUSA Analytics developed a four-dashboard Tableau analytics engagement illustrating how insurance teams could analyze portfolio premiums, underwriting exposure, claims activity, and operational review priorities in one navigable experience. The dashboards support filtering by date, claim, country, policy type, product, risk tier, and channel.
 
 ## Business challenge
 
-Insurance organizations need coherent views of premiums, policy populations, underwriting risk, claims, and case-management signals. Disconnected data definitions and different levels of detail can obscure loss ratios, claim aging, regional performance, and service exceptions. This demonstration explores how a consolidated Tableau view might help analytics and business teams navigate these challenges.
+Insurance organizations need coherent views of premiums, policy populations, underwriting risk, claims, and case-management signals. Disconnected data definitions and different levels of detail can obscure loss ratios, claim aging, regional performance, and service exceptions. This engagement explores how a consolidated Tableau view might help analytics and business teams navigate these challenges.
 
 ## Solution: four decision views
 
@@ -63,7 +63,7 @@ Presents high-risk claim flags, SLA breach rates, reopened claims, SIU referrals
 - Investigate claim aging, settlement trends, status mixes, and review queues.
 - Support human-led triage of operational exceptions and risk indicators.
 
-These are *potential analytical applications*, not measured business outcomes.
+These are documented analytical capabilities; no measured business outcomes are claimed without client-approved evidence.
 
 ## Deployment considerations
 
